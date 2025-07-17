@@ -1,0 +1,274 @@
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('MonumentExtended-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('MonumentExtended-Ultrabold.otf') format('opentype');
+  font-weight: 800;
+}
+
+
+
+  
+body {
+  font-family: 'MonumentExtended', sans-serif;
+  font-weight: 400; 
+  background-color: hsl(0, 0%, 0%) ;}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 1000px;
+    background-color: rgb(255, 255, 255) ;
+    width: 90vw;
+    height: 5rem;
+    margin-top: 30px;
+    box-shadow: 1px 1px 100px lightblue ;
+    transition: all ease-in-out 0.5s;
+    transition:initial ease-in-out 3s;
+}
+.bar:hover{
+     box-shadow: 1px 1px 100px white ;
+
+}
+.bar a {
+    font-weight: bold;
+    font-size:large;
+    text-decoration: none;
+    text-align: center;
+    color:hsl(0, 0%, 4%) ;
+    transition: linear 0.2s;
+
+}
+.bar a:hover{
+    color: hsl(0, 0%, 4%) ;
+    font-size: 50px;
+}
+.hook {
+    position: relative;
+    top: 190px;
+    left: 230px;
+    color: #a6a3a3 ;
+    font-size: 3rem;
+    font-weight: bold; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    width: 50rem;
+    background-color: none;
+    transform: scale(1.5) rotateX(-16deg) rotateY(16deg);
+    text-shadow: 1px 1px 100px white;
+    transform-style: preserve-3d;
+    transition: transform 1s ease, box-shadow 0.6s ease;
+    perspective: 1000px;
+    transition:linear font-size 0.2s ;
+    cursor: pointer;
+
+}
+
+   .how{ 
+    margin-top: 600px;
+    margin-left:10px;
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+    letter-spacing:2px;
+   }
+
+   .how .tunein {
+    color:lightblue ;
+
+   }
+   .how a{
+    text-decoration: none;
+   }
+   .hookImg{
+      position: absolute;
+      top: 160px;
+      right: 20px;
+      z-index: -1000;
+     border-radius: 20px;
+     width: 600px;
+   }
+  
+   .grid{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+    gap: 30px;
+    cursor: pointer;
+   }
+   .grid div{
+    background-color: rgb(255, 255, 255);
+    height: 500px ; 
+    text-align: center;
+    border-radius: 100px;
+    color: black;
+    font-size: 30px;
+    transition:  ease 1s;
+      flex-wrap: wrap;
+   }
+  .grid div:hover{
+    box-shadow: 1px 1px 100px white;
+    height: 600px ;
+
+  }
+  .gridPrincing{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+  }
+  .gridPrincing div {cursor: pointer;
+
+    background-color: rgb(255, 255, 255);
+    height: 500px ; 
+    text-align: center;
+    border-radius: 100px;
+    color: black;
+    font-size: 30px;
+    transition:  ease 1s;
+    overflow: hidden;
+  }
+
+  .gridPrincing div:hover{
+    box-shadow: 1px 1px 100px white;
+    height: 900px ;
+
+  }
+  section h1 {
+    text-decoration: underline;
+  }
+  
+
+.form{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-top: 100px;
+
+}
+.contactus{
+ padding: 10px;
+ border-radius: 15px ;
+}
+.submit{
+  padding: 1px 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-weight: bold ;
+  cursor: pointer;
+  font-family: "MonumentExtended" ;
+}
+
+ .message{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding: 40px;
+  margin-top: 10px;
+  border-radius: 10px ;
+  width: 120px;
+
+}
+footer{
+  border: none;
+}
+----------------------------------------------------
+.reveal {
+ opacity: 0;
+transform: translateY(50px);
+
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+   animation: fadeUp 1.5s ease forwards; 
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family:  sans-serif;   /* or any font stack you want */
+  color: #999;                         /* optional: tint the placeholder */
+  opacity: 1; 
+  font-size: 10px;                         /* override browser fade */
+}
+ 
+@media only screen and (max-width: 430px) {
+  
+}
+
+
+
+
+
+.h11{
+  color: white;
+  margin-left: 100px;
+  font-size: 3rem ;
+  text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
