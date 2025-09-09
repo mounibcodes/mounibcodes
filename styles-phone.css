@@ -25,8 +25,7 @@ body {
     margin: auto;
     border-radius: 1000px;
     background-color: rgb(255, 255, 255) ;
-    width:700px;
-    height: 5rem;
+    width:max-content ; 
     margin-top: 30px;
     box-shadow: 1px 1px 100px lightblue ;
     transition: all ease-in-out 0.5s;
@@ -39,7 +38,8 @@ body {
 
 .bar a {
     font-weight: bold;
-    font-size:large;
+    font-size:small;
+    padding: 10px;
     text-decoration: none;
     text-align: center;
     color:hsl(0, 0%, 4%) ;
@@ -48,7 +48,8 @@ body {
 
    .hookImg{
     width: 400px;
-    margin-left: 250px;
+    position: relative;
+    left: 50px;
     z-index: -100;
     border-radius: 30px;
    }
@@ -56,13 +57,13 @@ body {
    .hook {
     position: relative;
     top: 200px;
-    left: 130px;
-    color: #a6a3a3 ;
-    font-size: 30px;
+    color: lightblue ;
+    font-size: 35px;
+    text-align: right;
     font-weight: bold; 
     display: flex;
     width: 30rem;
-    transform: scale(1.5) rotateX(-16deg) rotateY(16deg);
+    transform: scale(1.5) rotateX(-40deg) rotateY(16deg);
     text-shadow: 1px 1px 100px white;
     transform-style: preserve-3d;
     transition: transform 1s ease, box-shadow 0.6s ease;
@@ -72,7 +73,6 @@ body {
 
 }
    .how{ 
-    width: 700px;
     margin-top: 20px;
     font-size: 1rem;
     color: white;
@@ -99,7 +99,7 @@ body {
 
     .grid{
     display: grid;
-    grid-template-rows:1fr ;
+    grid-template-rows: calc(1fr) ;
     align-items: center;
     text-align: center;
     margin-top: 100px;
@@ -110,7 +110,7 @@ body {
 
      .grid div{
     background-color: rgb(255, 255, 255);
-    width: 700px ; 
+    width: 1fr ; 
     text-align: center;
     border-radius: 50px;
     color: black;
@@ -129,7 +129,7 @@ body {
     .gridPrincing div {
     cursor: pointer;
     background-color: rgb(255, 255, 255);
-    width: 700px ; 
+    width: 1fr ; 
     text-align: center ;
     border-radius: 50px;
     color: black;
@@ -143,19 +143,15 @@ body {
     text-align: center !important;
   }
   
-  
-  .submit{
-  padding: 1px 30px;
-  margin-left: 10px;
-  border-radius: 10px;
-  font-weight: bold ;
-  cursor: pointer;
-  font-family: "MonumentExtended" ;
+.for{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
-input{
-    border-radius: 10px;
-    padding: 10px;
-
+label{
+  color: white;
 }
 .ft{
     display: flex;
