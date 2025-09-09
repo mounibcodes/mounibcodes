@@ -27,8 +27,8 @@ body {
     margin: auto;
     border-radius: 1000px;
     background-color: rgb(255, 255, 255) ;
-    width: 90vw;
-    height: 5rem;
+    width: 700px;
+    height: 4rem;
     margin-top: 30px;
     box-shadow: 1px 1px 100px lightblue ;
     transition: all ease-in-out 0.5s;
@@ -43,29 +43,30 @@ body {
     font-size:large;
     text-decoration: none;
     text-align: center;
-    color:hsl(0, 0%, 4%) ;
+    color:hsl(0, 0%, 10%) ;
     transition: linear 0.2s;
 
 }
 .bar a:hover{
     color: hsl(0, 0%, 4%) ;
-    font-size: 50px;
+    text-decoration: underline;
+    
 }
 .hook {
     position: relative;
-    top: 190px;
-    left: 230px;
-    color: #a6a3a3 ;
+    top: 300px;
+    color: lightskyblue;
     font-size: 3rem;
     font-weight: bold; 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    text-align: left  ;
     padding: 40px;
     border-radius: 20px;
     width: 50rem;
     background-color: none;
-    transform: scale(1.5) rotateX(-16deg) rotateY(16deg);
+    transform: scale(1.5) rotateX(-30deg) rotateY(16deg);
     text-shadow: 1px 1px 100px white;
     transform-style: preserve-3d;
     transition: transform 1s ease, box-shadow 0.6s ease;
@@ -151,37 +152,29 @@ body {
     text-decoration: underline;
   }
   
-
 .form{
   display: flex;
-  justify-content: left;
-  align-items: left;
+  flex-direction: row;
+  justify-content: center ; 
+  align-items: center;
   margin-top: 100px;
 
 }
-.contactus{
- padding: 10px;
- border-radius: 15px ;
-}
-.submit{
-  padding: 1px 30px;
-  margin-left: 10px;
-  border-radius: 10px;
-  font-weight: bold ;
-  cursor: pointer;
-  font-family: "MonumentExtended" ;
-}
 
- .message{
+
+.for{
   display: flex;
-  align-items: left;
-  justify-content: left;
-  padding: 40px;
-  margin-top: 10px;
-  border-radius: 10px ;
-  width: 120px;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+} 
+label { 
+  color: whitesmoke;
+  display: inline-block; 
+
 
 }
+
 footer{
   border: none;
 }
@@ -217,11 +210,6 @@ textarea::placeholder {
   font-size: 10px;                         /* override browser fade */
 }
  
-@media only screen and (max-width: 430px) {
-  
-}
-
-
 
 
 
