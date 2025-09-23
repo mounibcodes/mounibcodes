@@ -8,8 +8,11 @@
     <!-- Mobile CSS -->
     <link rel="stylesheet" href="styles-phone.css" media="only screen and (max-width: 767px)">
 
+    <!-- Tablet CSS -->
+    <link rel="stylesheet" href="styles-tablet.css" media="only screen and (min-width: 768px) and (max-width: 1024px)">
+
     <!-- Desktop CSS -->
-    <link rel="stylesheet" href="me.css" media="only screen and (min-width: 768px)">
+    <link rel="stylesheet" href="me.css" media="only screen and (min-width: 1025px)">
 
 </head>
 
@@ -21,6 +24,18 @@
             <a class="id" href="section3">PRICING</a>
             <a class="id" href="section4">START YOUR PROJECT</a>
         </div>
+
+        <!-- Mobile menu trigger -->
+        <button class="menu-dots" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+            <span></span><span></span><span></span>
+        </button>
+        <!-- Mobile menu content -->
+        <nav id="mobileMenu" class="mobile-menu" hidden>
+            <a class="id" href="section1">HOME</a>
+            <a class="id" href="section2">SERVICES</a>
+            <a class="id" href="section3">PRICING</a>
+            <a class="id" href="section4">START YOUR PROJECT</a>
+        </nav>
     </header>
     <main>
         <section id="section1" class="HOME reveal">
@@ -34,7 +49,7 @@
                 <h1> HOW IS THAT ?</h1>
                 <HR>
                 <p><br><b>we make digital solution that make client hyped to work with YOU!! <br><br>
-                        just like you hyped to worked with us</b> <a href="_blank"><span class="tunein">click here</a>
+                        just like you hyped to worked with us</b> <a class="id" href="section4"><span class="tunein">click here</span></a>
             </div>
         </section>
         </p>
