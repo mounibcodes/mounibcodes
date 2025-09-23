@@ -178,6 +178,9 @@ label {
 footer{
   border: none;
 }
+/* Hide mobile menu controls on desktop */
+.menu-dots { display: none; }
+.mobile-menu { display: none !important; }
 ----------------------------------------------------
 .reveal {
  opacity: 0;
