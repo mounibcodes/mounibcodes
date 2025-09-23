@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('MonumentExtended-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'MonumentExtended';
+  src: url('MonumentExtended-Ultrabold.otf') format('opentype');
+  font-weight: 800;
+}
+
+body {
+  font-family: 'MonumentExtended', sans-serif; 
+  background-color: hsl(0, 0%, 0%);
+}
+.HOME {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 60px 20px 0;
+}
+
+.hook {
+  position: static;
+  color: lightskyblue;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+  transform: none;
+  text-shadow: 0 0 30px rgba(255,255,255,0.3);
+  transition: none;
+}
+
+.hookImg {
+  position: static;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 20px;
+  z-index: 0;
+}
+/* Hide mobile menu controls on tablet */
+.menu-dots { display: none; }
+.mobile-menu { display: none !important; }
+
+.bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 24px auto 0;
+  border-radius: 1000px;
+  background-color: #fff;
+  width: min(90vw, 700px);
+  height: 3.5rem;
+  box-shadow: 1px 1px 100px lightblue;
+  transition: all ease-in-out 0.5s;
+}
+
+.bar a {
+  font-weight: bold;
+  font-size: medium;
+  text-decoration: none;
+  text-align: center;
+  color: hsl(0, 0%, 10%);
+  transition: linear 0.2s;
+}
+
+.hook {
+  position: relative;
+  top: 220px;
+  color: lightskyblue;
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  border-radius: 20px;
+  width: min(90vw, 48rem);
+  transform: scale(1.2) rotateX(-24deg) rotateY(14deg);
+  text-shadow: 1px 1px 100px white;
+  transform-style: preserve-3d;
+  transition: transform 1s ease, box-shadow 0.6s ease;
+}
+
+.hookImg {
+  position: absolute;
+  top: 140px;
+  right: 20px;
+  z-index: -1000;
+  border-radius: 20px;
+  width: min(45vw, 520px);
+}
+
+.how {
+  margin-top: 420px;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.h11 {
+  color: white;
+  margin-left: 40px;
+  font-size: 2rem;
+  text-decoration: underline;
+  text-align: left !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  align-items: stretch;
+  margin-top: 80px;
+  color: white;
+}
+
+.grid div {
+  background: #fff;
+  height: 420px;
+  border-radius: 60px;
+  color: #000;
+  font-size: 24px;
+  transition: ease 1s;
+  overflow: hidden;
+}
+
+.gridPrincing { 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.gridPrincing div {
+  background: #fff;
+  height: 460px;
+  border-radius: 60px;
+  color: #000;
+  font-size: 24px;
+  transition: ease 1s;
+  overflow: hidden;
+}
+
+section h1, section h2 {
+  text-decoration: underline;
+  text-align: center !important;
+}
+
+.for { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+input, textarea, button { 
+  width: min(90vw, 560px);
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 200px !important;
+}
+
