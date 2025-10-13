@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BRAND-DIGITAL AGENCEY</title>
+    <meta name="format-detection" content="telephone=no">
+
+    <title>NEXTGENDZ-DIGITAL AGENCEY</title>
     <!-- Mobile CSS -->
     <link rel="stylesheet" href="styles-phone.css" media="only screen and (max-width: 1024px)">
 
@@ -168,17 +170,45 @@
     </main>
 
 
-    <footer style="color: white;">
-        <HR>
-        </HR>
-        <div class="ft">
-            <p>Copyright © 2025</p>
-            <p>Terms / Privacy links</p>
-            <p>MADE BY MOUNIB MAMMERI</p>
-        </div>
+<footer style="background-color: #0b0b0b; color: white; padding: 2rem 1rem; text-align: center; font-family: 'Poppins', sans-serif; display: flex; flex-direction: column; gap: 1rem;">
 
+    <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, #ffffff40, transparent); margin-bottom: 1rem;">
 
-    </footer>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.5rem; font-size: 0.95rem;">
+        <p style="margin: 0;">© 2025 <b>Mounib Mammeri</b>. All rights reserved.</p>
+        <p style="margin: 0;">Built with 💻 & passion.</p>
+        <p style="margin: 0;">
+            <a href="https://mounibcodes.vercel.app" style="color: #00bfff; text-decoration: none; font-weight: 600;">mounibcodes.vercel.app</a>
+        </p>
+    </div>
+
+    <div style="margin-top: 1rem; font-size: 0.85rem; color: #aaaaaa;">
+        <p style="margin: 0;">Terms • Privacy Policy • Contact</p>
+    </div>
+
+    <div style="margin-top: 1.5rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://www.linkedin.com/in/mounib-mammeri" style="color: white; text-decoration: none; font-size: 1.1rem;">LinkedIn</a>
+        <a href="https://github.com/mounibcodes" style="color: white; text-decoration: none; font-size: 1.1rem;">GitHub</a>
+        <a href="mailto:mounibcodes@gmail.com" style="color: white; text-decoration: none; font-size: 1.1rem;">Email</a>
+    </div>
+
+    <script>
+        // Quick responsive behavior: stack items on smaller screens
+        function adjustFooter() {
+            const footer = document.querySelector('footer div');
+            if (window.innerWidth < 600) {
+                footer.style.flexDirection = 'column';
+                footer.style.gap = '0.5rem';
+            } else {
+                footer.style.flexDirection = 'row';
+                footer.style.gap = '1.5rem';
+            }
+        }
+        window.addEventListener('resize', adjustFooter);
+        adjustFooter();
+    </script>
+</footer>
+
 
     <script src="me.js">
 
@@ -186,6 +216,7 @@
 </body>
 
 </html>
+
 
 
 
