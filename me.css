@@ -144,8 +144,8 @@ body {
   }
 
   .gridPrincing div:hover{
-    box-shadow: 1px 1px 100px white;f
-
+    box-shadow: 1px 1px 100px white;
+    height: 10px ; 
   }
   section h1 {
     text-decoration: underline;
@@ -262,4 +262,5 @@ textarea::placeholder {
 
 
    
+
 
