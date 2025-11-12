@@ -1,0 +1,35 @@
+{
+  "name": "mounibcodes",
+  "version": "1.0.0",
+  "description": "Portfolio website for Mounib - Frontend Developer & Digital Solutions",
+  "main": "me.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js",
+    "format": "node scripts/format.js",
+    "lint": "node scripts/lint.js",
+    "validate": "node scripts/validate.js",
+    "precommit": "npm run format && npm run lint && npm run validate",
+    "prebuild": "npm run validate"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "frontend",
+    "automation"
+  ],
+  "author": "Mounib <mounibcodes@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "clean-css": "^5.3.3",
+    "eslint": "^9.39.1",
+    "html-minifier": "^4.0.0",
+    "imagemin": "^9.0.1",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-webp": "^8.0.0",
+    "prettier": "^3.6.2",
+    "terser": "^5.44.1"
+  }
+}

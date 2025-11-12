@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'MonumentExtended', sans-serif; 
+  font-family: 'MonumentExtended', sans-serif;
   background-color: hsl(0, 0%, 0%);
 }
 .HOME {
@@ -33,7 +33,7 @@ body {
   max-width: 48rem;
   margin: 0 auto;
   transform: none;
-  text-shadow: 0 0 30px rgba(255,255,255,0.3);
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
   transition: none;
 }
 
@@ -47,8 +47,12 @@ body {
   z-index: 0;
 }
 /* Hide mobile menu controls on tablet */
-.menu-dots { display: none; }
-.mobile-menu { display: none !important; }
+.menu-dots {
+  display: none;
+}
+.mobile-menu {
+  display: none !important;
+}
 
 .bar {
   display: flex;
@@ -87,7 +91,9 @@ body {
   transform: scale(1.2) rotateX(-24deg) rotateY(14deg);
   text-shadow: 1px 1px 100px white;
   transform-style: preserve-3d;
-  transition: transform 1s ease, box-shadow 0.6s ease;
+  transition:
+    transform 1s ease,
+    box-shadow 0.6s ease;
 }
 
 .hookImg {
@@ -135,7 +141,7 @@ body {
   overflow: hidden;
 }
 
-.gridPrincing { 
+.gridPrincing {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
@@ -151,12 +157,13 @@ body {
   overflow: hidden;
 }
 
-section h1, section h2 {
+section h1,
+section h2 {
   text-decoration: underline;
   text-align: center !important;
 }
 
-.for { 
+.for {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,7 +171,9 @@ section h1, section h2 {
   margin: auto;
 }
 
-input, textarea, button { 
+input,
+textarea,
+button {
   width: min(90vw, 560px);
   box-sizing: border-box;
 }
@@ -172,4 +181,3 @@ input, textarea, button {
 textarea {
   height: 200px !important;
 }
-
