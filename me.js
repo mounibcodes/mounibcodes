@@ -1,21 +1,16 @@
 document.querySelectorAll('.id').forEach(link => {
-  link.addEventListener('click', function(e) {
+  link.addEventListener('click', function (e) {
     e.preventDefault(); // Prevent default anchor click behavior
-    const targetId = this.getAttribute('href') //.substring(1); // Remove #
+    const targetId = this.getAttribute('href'); //.substring(1); // Remove #
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {
       targetElement.scrollIntoView({
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   });
 });
-
-
-
-
-
 
 function revealOnScroll() {
   const reveals = document.querySelectorAll('.reveal');

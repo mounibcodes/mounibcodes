@@ -4,17 +4,16 @@
   font-weight: 400;
 }
 
-
 @font-face {
   font-family: 'MonumentExtended';
   src: url('MonumentExtended-Ultrabold.otf') format('opentype');
   font-weight: 800;
 }
 
-
 body {
-  font-family: 'MonumentExtended', sans-serif; 
-  background-color: hsl(0, 0%, 0%) ;}
+  font-family: 'MonumentExtended', sans-serif;
+  background-color: hsl(0, 0%, 0%);
+}
 /* Hero container: stack and center */
 .HOME {
   display: flex;
@@ -25,9 +24,8 @@ body {
   padding: 40px 16px 0;
 }
 
-
-  .bar {
-    display: none;
+.bar {
+  display: none;
 }
 /* Mobile three-dots button */
 .menu-dots {
@@ -39,7 +37,7 @@ body {
   border-radius: 999px;
   border: none;
   background: #ffffff;
-  box-shadow: 0 6px 24px rgba(173,216,230,0.6);
+  box-shadow: 0 6px 24px rgba(173, 216, 230, 0.6);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +60,7 @@ body {
   left: 10px;
   background: #ffffff;
   border-radius: 16px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.25);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -72,135 +70,138 @@ body {
   padding: 16px;
   text-decoration: none;
   color: #000;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
-.mobile-menu a:last-child { border-bottom: none; }
+.mobile-menu a:last-child {
+  border-bottom: none;
+}
 
 /* Hidden state handled by [hidden] attribute */
-.mobile-menu[hidden] { display: none; }
-.bar:hover{
-     box-shadow: 1px 1px 100px white ;
+.mobile-menu[hidden] {
+  display: none;
 }
-
+.bar:hover {
+  box-shadow: 1px 1px 100px white;
+}
 
 .bar a {
-    font-weight: bold;
-    font-size:small;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    color:hsl(0, 0%, 4%) ;
-    transition: linear 0.2s;
+  font-weight: bold;
+  font-size: small;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: hsl(0, 0%, 4%);
+  transition: linear 0.2s;
 }
 
-  .hookImg{
-    width: 100%;
-    max-width: 520px;
-    height: auto;
-    margin: 0 auto;
-    z-index: 0;
-    border-radius: 20px;
-  }
-
-   .hook {
-    position: static;
-    color: lightskyblue;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    max-width: 700px;
-    margin: 0 auto;
-    transform: none;
-    text-shadow: 0 0 30px rgba(255,255,255,0.3);
-    transition: none;
-    cursor: default;
-  }
-   .how{ 
-    margin-top: 10px;
-    font-size: 1rem;
-    color: white;
-    text-align:center ; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    letter-spacing:3px;
-   }
-
-    .how .tunein {
-    color:lightblue ;
-
-   }
-      .how a{
-    text-decoration: none;
-   }
-
-.h11{
-    color: white;
-    margin-left: 16px;
-    font-size: 22px ;
-    margin-top: 50px;
-    text-decoration:underline;
-    text-align: left !important;
+.hookImg {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 0 auto;
+  z-index: 0;
+  border-radius: 20px;
 }
 
-   .grid{
-    display: grid;
-    grid-template-columns: 1fr ;
-    align-items: center;
-    text-align: center;
-    margin-top: 100px;
-    color: white;
-    gap: 16px;
-    cursor: pointer;
-    flex-wrap: wrap;
+.hook {
+  position: static;
+  color: lightskyblue;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  transform: none;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  transition: none;
+  cursor: default;
+}
+.how {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 3px;
+}
 
-   }
+.how .tunein {
+  color: lightblue;
+}
+.how a {
+  text-decoration: none;
+}
 
-    .grid div{
-    background-color: rgb(255, 255, 255);
-    width: 100% ; 
-    text-align: center;
-    border-radius: 30px;
-    color: black;
-    font-size: 20px;
-    transition:  ease 1s;
-    flex-wrap: wrap;
-    overflow: hidden;
-   }
+.h11 {
+  color: white;
+  margin-left: 16px;
+  font-size: 22px;
+  margin-top: 50px;
+  text-decoration: underline;
+  text-align: left !important;
+}
 
- .gridPrincing{
-    display: grid;
-    grid-template-columns: 1fr ;
-    gap: 16px;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+  gap: 16px;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
 
-  }
+.grid div {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  border-radius: 30px;
+  color: black;
+  font-size: 20px;
+  transition: ease 1s;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
 
-   .gridPrincing div {
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    width: 100% ; 
-    text-align: center ;
-    border-radius: 30px;
-    color: black;
-    font-size: 20px;
-    transition:  ease 1s;
-    overflow: hidden;
-  }
-  section h1,h2{
-    text-decoration: underline;
-    text-align: center !important;
-  }
-  
-.for{
+.gridPrincing {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.gridPrincing div {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  border-radius: 30px;
+  color: black;
+  font-size: 20px;
+  transition: ease 1s;
+  overflow: hidden;
+}
+section h1,
+h2 {
+  text-decoration: underline;
+  text-align: center !important;
+}
+
+.for {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto;
 }
-input, textarea, button {
+input,
+textarea,
+button {
   width: 90vw;
   max-width: 480px;
   box-sizing: border-box;
@@ -209,24 +210,22 @@ textarea {
   height: 160px !important;
   width: 90vw !important;
 }
-label{
+label {
   color: white;
 }
-.ft{
-    display: flex;
-    flex-direction: column;
-
+.ft {
+  display: flex;
+  flex-direction: column;
 }
 .reveal {
- opacity: 0;
-transform: translateY(50px);
-
+  opacity: 0;
+  transform: translateY(50px);
 }
 
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
-   animation: fadeUp 1.5s ease forwards; 
+  animation: fadeUp 1.5s ease forwards;
 }
 
 @keyframes fadeUp {

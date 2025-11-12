@@ -52,4 +52,29 @@
 
 ---
 
+## 🚀 Development Automation Tools
+
+This project includes a comprehensive automation toolkit for efficient development:
+
+### Quick Start
+```bash
+npm install          # Install dependencies
+npm run dev          # Start development server with live reload
+npm run build        # Build optimized production version
+npm run format       # Auto-format all code files
+npm run lint         # Check code quality
+npm run validate     # Validate project structure
+```
+
+### Features
+- 🔄 **Live Reload**: Auto-refresh browser on file changes
+- 📦 **Production Build**: Minify HTML, CSS, JS (38% size reduction)
+- ✨ **Auto-Formatting**: Consistent code style with Prettier
+- 🔍 **Code Linting**: Quality checks with ESLint
+- ✅ **Validation**: Pre-deployment structure checks
+
+📖 See [AUTOMATION.md](./AUTOMATION.md) for detailed documentation.
+
+---
+
 <h4 align="center">Always learning. Always building.</h4>
