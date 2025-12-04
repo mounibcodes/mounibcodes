@@ -221,7 +221,92 @@ textarea::placeholder {
   font-size: 3rem ;
   text-decoration:underline;
 }
+footer{
+  border: none;
+}
+/* Modern footer (desktop) */
+.site-footer {
+  margin-top: 120px;
+  background: linear-gradient(180deg, rgba(20,20,20,1) 0%, rgba(12,12,12,1) 100%);
+  color: #cfd8dc;
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
 
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.footer-section { min-width: 0; }
+
+.footer-brand {
+  font-family: 'MonumentExtended', sans-serif;
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.footer-tagline {
+  margin-top: 12px;
+  color: #b0bec5;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 14px;
+}
+
+.footer-links,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin: 8px 0;
+}
+
+.footer-links a {
+  color: #cfd8dc;
+  text-decoration: none;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(255,255,255,0.2);
+}
+
+/* Footer contact icons and links */
+.footer-contact i {
+  color: lightblue;
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+.footer-contact a {
+  color: #cfd8dc;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.footer-contact a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  text-align: center;
+  padding: 18px 24px 28px;
+  color: #90a4ae;
+  font-size: 0.95rem;
+}
 
 
 
@@ -262,6 +347,7 @@ textarea::placeholder {
 
 
    
+
 
 
 
