@@ -170,40 +170,38 @@
     </main>
 
 
-<footer style="background-color: #0b0b0b; color: white; padding: 2rem 1rem; text-align: center; font-family: 'Poppins', sans-serif; display: flex; flex-direction: column; gap: 1rem;">
+    <footer class="site-footer">
+        <div class="footer-content">
+            <section class="footer-section">
+                <h2 class="footer-brand">MOUNIB STUDIO</h2>
+                <p class="footer-tagline">Modern, fast, and clean web builds for business growth.</p>
+            </section>
 
-    <hr style="border: none; height: 1px; background: linear-gradient(to right, transparent, #ffffff40, transparent); margin-bottom: 1rem;">
+            <section class="footer-section">
+                <h3 class="footer-title">Liens Rapides</h3>
+                <ul class="footer-links">
+                    <li><a href="#section1">Accueil</a></li>
+                    <li><a href="#section2">Services</a></li>
+                    <li><a href="#section3">Les Prix</a></li>
+                    <li><a href="#section4">Bda Projetek</a></li>
+                </ul>
+            </section>
 
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1.5rem; font-size: 0.95rem;">
-        <p style="margin: 0;">© 2025 <b>NEXTGENDZ</b>. All rights reserved.</p>
-    </div>
+            <section class="footer-section">
+                <h3 class="footer-title">Contact</h3>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-envelope"></i> Email: <a href="mailto:mounibcodes@gmail.com">mounibcodes@gmail.com</a></li>
+                    <li><i class="fab fa-github"></i> GitHub: <a href="https://github.com/mounibcodes" target="_blank" rel="noopener">mounibcodes</a></li>
+                    <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/mounib-mammeri" target="_blank" rel="noopener">mounib-mammeri</a></li>
+                    <li>Lieu: DZ / Remote</li>
+                </ul>
+            </section>
+        </div>
 
-    <div style="margin-top: 1rem; font-size: 0.85rem; color: #aaaaaa;">
-        <p style="margin: 0;">Terms • Privacy Policy • Contact</p>
-    </div>
-
-    <div style="margin-top: 1.5rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://www.linkedin.com/in/mounib-mammeri" style="color: white; text-decoration: none; font-size: 1.1rem;">LinkedIn</a>
-        <a href="https://github.com/mounibcodes" style="color: white; text-decoration: none; font-size: 1.1rem;">GitHub</a>
-        <a href="mailto:mounibcodes@gmail.com" style="color: white; text-decoration: none; font-size: 1.1rem;">Email</a>
-    </div>
-
-    <script>
-        // Quick responsive behavior: stack items on smaller screens
-        function adjustFooter() {
-            const footer = document.querySelector('footer div');
-            if (window.innerWidth < 600) {
-                footer.style.flexDirection = 'column';
-                footer.style.gap = '0.5rem';
-            } else {
-                footer.style.flexDirection = 'row';
-                footer.style.gap = '1.5rem';
-            }
-        }
-        window.addEventListener('resize', adjustFooter);
-        adjustFooter();
-    </script>
-</footer>
+        <div class="footer-bottom">
+            <span>&copy; 2025 MOUNIB MAMMERI • All rights reserved.</span>
+        </div>
+    </footer>
 
 
     <script src="me.js">
@@ -212,6 +210,7 @@
 </body>
 
 </html>
+
 
 
 
