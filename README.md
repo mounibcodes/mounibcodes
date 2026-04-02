@@ -8,9 +8,8 @@
 ---
 
 ### About Me
-- Currently building at **[mounibcodes.vercel.app](https://mounibcodes.vercel.app)**
+- Currently building at **[Umma studio](https://umma.studio)**
 - Focused on **Frontend Development** and **UI/UX**
-- Learning **C** and exploring backend fundamentals  
 - Reach me: **mounibcodes@gmail.com**
 - Used to play basketball, now I build and ship projects
 
